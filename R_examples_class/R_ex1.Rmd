@@ -17,6 +17,7 @@ plot(data)
 
 ## Including Plots
 ```{r pressure, echo=FALSE}
+
 data2 <- pressure
 head(data2)
 result <- lm(data2, formula = pressure ~ temperature)
@@ -40,6 +41,7 @@ data$speed <- as.character(data$speed)
 data$speed <- as.factor(data$speed)
 data$speed <- as.numeric(data$speed)
 
+cars
 plot(cars)
 plot(data)
 
